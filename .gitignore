@@ -5,3 +5,4 @@
 /Sports/.vs/Sports/v15/Server/sqlite3/*.ide-shm
 /Sports/.vs/Sports/v15/Server/sqlite3/*.ide-wal
 /Sports/Sports.Web/.vs/Sports.Web/v15/Server/sqlite3
+/Sports/Sports.Web/.vs/Sports.Web/v15/Server/sqlite3/*.lock
