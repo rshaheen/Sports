@@ -29,26 +29,50 @@ namespace Sports.Web
                       "~/Scripts/Vendor/wow.min.js",
                       "~/Scripts/angular.js",
                       "~/Scripts/angular-animate.js",
-                      "~/Scripts/Vendor/bootbox.min.js",
+                      "~/Scripts/angular-aria.js",
+                      "~/Scripts/angular-messages.js",
+                      "~/Scripts/angular-resource.js",
+                      "~/Scripts/angular-resource.js",
+                      "~/Scripts/Vendor/angular-material.min.js",
+                      "~/Scripts/Vendor/angular-block-ui.js",
+                      "~/Scripts/Vendor/angular-strap.js",
+                      "~/Scripts/Vendor/angular-strap.tpl.js",
+                      "~/Scripts/Vendor/bootbox.min.js", 
                       "~/Scripts/Vendor/ngBootbox.js",
                       "~/Scripts/Vendor/Chart.min.js",
-                      "~/Scripts/Vendor/angular-chart.js"
+                      "~/Scripts/Vendor/angular-chart.js",
+                      "~/Scripts/Vendor/multiple-select.js",
+                      "~/Scripts/Vendor/autocomplete.js"
                       ));
 
             bundles.Add(new ScriptBundle("~/bundles/appScript").Include(
-                "~/Scripts/App/main.js"
+                "~/Scripts/App/*.js",
+                "~/Scripts/App/Controller/*.js",
+                "~/Scripts/App/Directive/*.js",
+                "~/Scripts/App/services/*.js"
             ));
+//            bundles.Add(new ScriptBundle("~/bundles/scripts").IncludeDirectory(
+//                "~/Scripts/", "*.js", true));
+
+
 
             bundles.Add(new StyleBundle("~/Content/vendorCSS").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/angular-block-ui.css",
                       "~/Content/owl.carousel.css",
                       "~/Content/linearicons.css",
                       "~/Content/magnific-popup.css",
+                      "~/Content/angular-material.min.css",
+                      "~/Content/autocomplete.css",
+                      "~/Content/multiple-select.css",
                       "~/Content/animate.css"));
+
             bundles.Add(new StyleBundle("~/Content/mainCSS").Include(
                 "~/Content/normalize.css",
                 "~/Content/site.css",
                 "~/Content/responsive.css"));
+
+            BundleTable.EnableOptimizations = false;
         }
     }
 }

@@ -134,13 +134,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\angular-block-ui.css" />
+    <Content Include="Content\angular-material.min.css" />
     <Content Include="Content\animate.css" />
+    <Content Include="Content\autocomplete.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\linearicons.css" />
     <Content Include="Content\magnific-popup.css" />
+    <Content Include="Content\multiple-select.css" />
     <Content Include="Content\normalize.css" />
     <Content Include="Content\owl.carousel.css" />
     <Content Include="Content\responsive.css" />
@@ -211,6 +214,7 @@
     <Content Include="Scripts\angular-touch.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\App\app.js" />
     <Content Include="Scripts\App\main.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -984,10 +988,15 @@
     <Content Include="Scripts\Vendor\ajaxchimp.js" />
     <Content Include="Scripts\Vendor\angular-block-ui.js" />
     <Content Include="Scripts\Vendor\angular-chart.js" />
+    <Content Include="Scripts\Vendor\angular-material.min.js" />
+    <Content Include="Scripts\Vendor\angular-strap.js" />
+    <Content Include="Scripts\Vendor\angular-strap.tpl.js" />
+    <Content Include="Scripts\Vendor\autocomplete.js" />
     <Content Include="Scripts\Vendor\bootbox.min.js" />
     <Content Include="Scripts\Vendor\Chart.min.js" />
     <Content Include="Scripts\Vendor\contact-form.js" />
     <Content Include="Scripts\Vendor\magnific-popup.min.js" />
+    <Content Include="Scripts\Vendor\multiple-select.js" />
     <Content Include="Scripts\Vendor\ngBootbox.js" />
     <Content Include="Scripts\Vendor\owl.carousel.js" />
     <Content Include="Scripts\Vendor\owl.carousel.min.js" />
@@ -1013,6 +1022,9 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\App\Controller\" />
+    <Folder Include="Scripts\App\Directive\" />
+    <Folder Include="Scripts\App\services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
