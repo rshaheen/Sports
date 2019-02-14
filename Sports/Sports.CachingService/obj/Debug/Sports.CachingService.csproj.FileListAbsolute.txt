@@ -1,0 +1,5 @@
+D:\Sports Github\Sports\Sports\Sports.CachingService\bin\Debug\Remit.CachingService.dll
+D:\Sports Github\Sports\Sports\Sports.CachingService\bin\Debug\Remit.CachingService.pdb
+D:\Sports Github\Sports\Sports\Sports.CachingService\obj\Debug\Sports.CachingService.csproj.CoreCompileInputs.cache
+D:\Sports Github\Sports\Sports\Sports.CachingService\obj\Debug\Remit.CachingService.dll
+D:\Sports Github\Sports\Sports\Sports.CachingService\obj\Debug\Remit.CachingService.pdb

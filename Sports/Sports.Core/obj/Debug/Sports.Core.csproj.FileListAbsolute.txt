@@ -1,0 +1,5 @@
+D:\Sports Github\Sports\Sports\Sports.Core\bin\Debug\Remit.Core.dll
+D:\Sports Github\Sports\Sports\Sports.Core\bin\Debug\Remit.Core.pdb
+D:\Sports Github\Sports\Sports\Sports.Core\obj\Debug\Sports.Core.csproj.CoreCompileInputs.cache
+D:\Sports Github\Sports\Sports\Sports.Core\obj\Debug\Remit.Core.dll
+D:\Sports Github\Sports\Sports\Sports.Core\obj\Debug\Remit.Core.pdb

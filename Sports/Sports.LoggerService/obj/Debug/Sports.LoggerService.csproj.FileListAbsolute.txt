@@ -1,0 +1,13 @@
+D:\Sports Github\Sports\Sports\Sports.LoggerService\bin\Debug\Remit.LoggerService.dll
+D:\Sports Github\Sports\Sports\Sports.LoggerService\bin\Debug\Remit.LoggerService.pdb
+D:\Sports Github\Sports\Sports\Sports.LoggerService\bin\Debug\log4net.dll
+D:\Sports Github\Sports\Sports\Sports.LoggerService\bin\Debug\MoreLinq.dll
+D:\Sports Github\Sports\Sports\Sports.LoggerService\bin\Debug\System.ValueTuple.dll
+D:\Sports Github\Sports\Sports\Sports.LoggerService\bin\Debug\log4net.xml
+D:\Sports Github\Sports\Sports\Sports.LoggerService\bin\Debug\MoreLinq.pdb
+D:\Sports Github\Sports\Sports\Sports.LoggerService\bin\Debug\MoreLinq.xml
+D:\Sports Github\Sports\Sports\Sports.LoggerService\bin\Debug\System.ValueTuple.xml
+D:\Sports Github\Sports\Sports\Sports.LoggerService\obj\Debug\Sports.LoggerService.csproj.CoreCompileInputs.cache
+D:\Sports Github\Sports\Sports\Sports.LoggerService\obj\Debug\Sports.LoggerService.csproj.CopyComplete
+D:\Sports Github\Sports\Sports\Sports.LoggerService\obj\Debug\Remit.LoggerService.dll
+D:\Sports Github\Sports\Sports\Sports.LoggerService\obj\Debug\Remit.LoggerService.pdb

@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Accentech Pvt. Ltd.">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript, ASP.NET MVC">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports App</title>
+    <link rel="shortcut icon" type="image/ico" href="~/favicon.ico"/>
+    @Styles.Render("~/Content/vendorCSS")
+    @Styles.Render("~/Content/mainCSS")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body data-spy="scroll" data-target=".mainmenu-area">
+
+@*<!-- Preloader-content -->*@
+@*<div class="preloader">*@
+@*    <span>*@
+@*        <i class="lnr lnr-sun"></i>*@
+@*    </span>*@
+@*</div>*@
+
+<!-- MainMenu-Area -->
+<nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="~/images/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="primary_menu">
+            <ul class="nav navbar-nav mainmenu">
+                <li class="active">
+                    <a href="#home_page">Home</a>
+                </li>
+                <li>
+                    <a href="#about_page">About</a>
+                </li>
+                <li>
+                    <a href="#features_page">Features</a>
+                </li>
+                <li>
+                    <a href="#gallery_page">Gallery</a>
+                </li>
+                <li>
+                    <a href="#price_page">Pricing</a>
+                </li>
+                <li>
+                    <a href="#questions_page">FAQ</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="#contact_page">Contacts</a>
+                </li>
+            </ul>
+            <div class="right-button hidden-xs">
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- MainMenu-Area-End -->
+    
+    
+
+<!-- Reder Sections -->
+@RenderBody()
+<!--Reder Sections-End -->
+    
+
+<!-- Footer-Area -->
+<footer class="footer-area" id="contact_page">
+    <div class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">Contact US</h5>
+                        <h3 class="dark-color">Find Us By Bellow Details</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="footer-box">
+                        <div class="box-icon">
+                            <span class="lnr lnr-map-marker"></span>
+                        </div>
+                        <p>
+                            8-54 Paya Lebar Square <br/> 60 Paya Lebar Roa SG, Singapore
+                        </p>
+                    </div>
+                    <div class="space-30 hidden visible-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="footer-box">
+                        <div class="box-icon">
+                            <span class="lnr lnr-phone-handset"></span>
+                        </div>
+                        <p>
+                            +65 93901336 <br/> +65 93901337
+                        </p>
+                    </div>
+                    <div class="space-30 hidden visible-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="footer-box">
+                        <div class="box-icon">
+                            <span class="lnr lnr-envelope"></span>
+                        </div>
+                        <p>
+                            yourmail@gmail.com <br/> backpiper.com@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-Bootom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-5">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <span>
+                        Copyright &copy;
+                        @DateTime.Now.Year <a href="http://accentechltd.com/">Accentech (Pvt.) limited</a>
+                    </span>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <div class="space-30 hidden visible-xs"></div>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Features</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">Testimonial</a>
+                            </li>
+                            <li>
+                                <a href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-Bootom-End -->
+</footer>
+<!-- Footer-Area-End -->
+@*<div class="container body-content">
+
+            <hr/>
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>*@
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/bundles/appScript")
+@RenderSection("scripts", required: false)
+</body>
+</html>

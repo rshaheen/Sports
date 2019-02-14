@@ -1,0 +1,5 @@
+D:\Sports Github\Sports\Sports\Sports.ClientModel\bin\Debug\Remit.ClientModel.dll
+D:\Sports Github\Sports\Sports\Sports.ClientModel\bin\Debug\Remit.ClientModel.pdb
+D:\Sports Github\Sports\Sports\Sports.ClientModel\obj\Debug\Sports.ClientModel.csproj.CoreCompileInputs.cache
+D:\Sports Github\Sports\Sports\Sports.ClientModel\obj\Debug\Remit.ClientModel.dll
+D:\Sports Github\Sports\Sports\Sports.ClientModel\obj\Debug\Remit.ClientModel.pdb
